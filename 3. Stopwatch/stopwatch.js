@@ -14,6 +14,6 @@ let stopwatch = {
     }, 
     reset: function() {
       this.pause();
-      this.elapsedTime = 0;
+      this.elapsedTime =  0;
     }
   };
