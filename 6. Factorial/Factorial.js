@@ -4,7 +4,7 @@ function factorial(n){
         return 1;
     }
     if(n < 0){
-        return "Pls provide positive number";
+        return "Enter a positive number";
     }
 
     else{
@@ -19,5 +19,5 @@ console.log(factorial(-1));
 /*
 Output - 
 120
-Pls provide positive number
+Enter a positive number
 */
