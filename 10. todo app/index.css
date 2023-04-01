@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(237, 110, 205);
+  font-family: cursive;
+}
+
+.App {
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.todo-list {
+  margin-top:25px;
+  height: 60px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #010101;
+}
+
+li {
+  list-style: none;
+  overflow-wrap: anywhere;
+  height: 45px;
+  width: 160px;
+}
+
+button {
+  padding: 10px;
+  margin: 4px;
+  border-radius: 9px;
+  color: #020202;
+  background-color: #white;
+}
+
+input {
+  padding: 1-px;
+  margin: 4px;
+  border-radius: 9px;
+  color: #020202;
+  background-color: #black;
+}
